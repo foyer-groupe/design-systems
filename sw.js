@@ -1,4 +1,4 @@
-var CACHE = 'FoyerDesignSystem-2.0.1';
+var CACHE = 'FoyerDesignSystem-2.31.11';
 // Install stage sets up the offline page in the cache and opens a new cache.
 self.addEventListener('install', function(event) {
 	event.waitUntil( preLoad() );

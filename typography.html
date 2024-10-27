@@ -208,22 +208,19 @@
             <h1 class="h1-like">Typography</h1>
 
             <div class="intro-block">
-                <p>Typography is a main part of visual identity. To maintain a homogeneous and easily recognizable image, a family of characters has been chosen: <strong>Barlow</strong>.</p>
+                <p>Typography is a main part of visual identity. To maintain a homogeneous and easily recognizable image and favor accessibility, the typeface <strong>Inter</strong> has been choosen.</p>
             </div>
             
             <p>
                 This typeface must be systematically used and applied to all supports except for some specific ones. <a href="#Exceptions">Check exceptions list.</a><br>
-                Historically, we used DIN Pro as main typography, but the brand evolved. <b>Foyer</b> wants to use more Open Source solution, <a href="https://fonts.google.com/specimen/Barlow">Barlow</a> is the closest font we found.
-            </p>
-            <p>
-                For legal reasons, the name <b>Foyer</b> found in text blocs must be in bold. The first name letter must be in uppercase, and the rest in lowercase.
+                Historically, we used DIN Pro as main typography, but the brand evolved. <b>Foyer</b> wants to use a more accessible font, and InterVariable is the most accessible and versatile font we found.
             </p>
 
             <div class="toc">
                 <p id="toc-title" class="h3-like">Table of Contents</p>
                 <ul aria-labelledby="toc-title">
                     <li>
-                        <a href="#barlow-preview">Barlow preview</a>
+                        <a href="#font-preview">InterVariable preview</a>
                     </li>
                     <li>
                         <a href="#web-apps-environment">Rules &amp; Guidelines for Web Applications</a>
@@ -241,12 +238,12 @@
             </div>
             
 
-            <h2 class="h2-like" id="barlow-preview">Barlow Preview</h2>
+            <h2 class="h2-like" id="font-preview">InterVariable Preview</h2>
             <div class="row">
                 <div class="col-xs-12 col-md-10">
                     
                     <div class="doc-font">
-                        <div class="doc-font-watermark">Bar</div>
+                        <div class="doc-font-watermark">Inter</div>
 
                         <div class="doc-font-details">
                             <div class="doc-font-details-header">Characters</div>
@@ -262,11 +259,9 @@
                         <div class="doc-font-details">
                             <div class="doc-font-details-header">Font weights &amp; styles</div>
                             <div class="doc-font-details-body">
-                                <div style="font-weight: 300;">300 - Light <span style="font-style: italic;">italic</span></div>
-                                <div style="font-weight: 400;">400 - Regular <span style="font-style: italic;">italic</span></div>
+                                <div style="font-weight: 450;">450 - Regular <span style="font-style: italic;">italic</span></div>
                                 <div style="font-weight: 500;">500 - Medium <span style="font-style: italic;">italic</span></div>
                                 <div style="font-weight: 700;">700 - Bold <span style="font-style: italic;">italic</span></div>
-                                <div style="font-weight: 900;">900 - Black <span style="font-style: italic;">italic</span></div>
                             </div>
                         </div>
                         <div class="doc-font-details">
@@ -308,31 +303,31 @@
 
                         <h4 class="h4-like">Font-size</h4>
                         <div>
-                            <p>16 pixels is defined as a common base for body texts in all our Web Apps. For accessibility purpose, the minimal font-size authorized is 12 pixels.</p>
+                            <p>16 pixels is defined as a common base for body texts in all our Web Apps. For accessibility purpose, the minimal font-size authorized is 12 pixels with InterVariable. It's still a suitable value since InterVariable has a strong legibility.</p>
                             
-                            <p>In practice, to avoid too small nuances between closed texts, we advise to use an increment of 2 pixels, at least.</p>
+                            <p>In practice, to avoid too small nuances between closed texts, we advise to use an increment of 2 CSS pixels, at least.</p>
                         </div>
                         
                         <h4 class="h4-like">Font-weights</h4>
                         <div>
-                            <p>In most of our Designs, the base font-weight used is Regular (400).</p>
+                            <p>In most of our Designs, the base font-weight used is Regular (450).</p>
                             
                             <p>In practice, to sufficiently mark the difference between two close texts, we advise to have at least a gap of one font-weight.</p>
 
-                            <p>Example: if your normal text is Regular (400), use at least a Bold (700) font-weight to highlight important text. Medium (500) would not be sufficient. With the same logic, if your normal text is Medium (500), important text would be Black (900)</p>
+                            <p>Example: if your normal text is Regular (450), use at least a Bold (700) font-weight to highlight important text. Medium (500) would not be sufficient. With the same logic, if your normal text is Medium (500), important text would be Black (900)</p>
                         </div>
 
                         <h4 class="h4-like">Underlining</h4>
                         <div>
-                            <p>To avoid confusion since it is a common web convention, underlining is reserved to links, and only links, within digital interfaces.</p>
+                            <p>To avoid confusion since it is a common web convention, underlining is reserved to links, and only links, within digital interfaces or mixed media.</p>
                         </div>
 
                         <h4 class="h4-like">Letter casing</h4>
                         <div>
-                            <p>The book Dynamics in Document Design which says:</p>
+                            <p>The book <em>Dynamics in Document Design</em> says:</p>
                             <blockquote>
                                 <p>
-                                    When text is set in all capital letters, reading speed is slowed about 13 to 20 percent (Breland & Breland, 1944). Reading speed is optimal when uppercase and lowercase letters are used (Poulton, 1967; Rickards & August, 1975). When extra emphasis is needed, bold has been found to be a better cue than uppercase (Coles & Foster, 1975).
+                                    When text is set in all capital letters, reading speed is slowed about 13 to 20 percent (Breland &amp; Breland, 1944). Reading speed is optimal when uppercase and lowercase letters are used (Poulton, 1967; Rickards &amp; August, 1975). When extra emphasis is needed, bold has been found to be a better cue than uppercase (Coles & Foster, 1975).
                                 </p>
                             </blockquote>
 
@@ -354,6 +349,29 @@
                         </div>
 
                         
+                        <h4 class="h4-like">Hyphenation</h4>
+                        <div>
+                            <p>The hyphenation is the thing you mostly find in newspaper at the end of a text line: an hyphen that cut the word between two syllables to keep columns clean and well designed.</p>
+
+                            <p>As the Digital offers a lot of way to communicate information. We decided not to allow hyphenation within our interfaces to avoid confusion and to keep our interfaces accessible.</p>
+
+                            <p>The most common illustration to that is the hyphenation of an URL. Imagine you write an URL like "https://mysuperwebsite.com" and this part of the text arrives at the end of a line. The hyphenation algorithm will write something like: https://mysuper-<br>website.com and you won't be able as a reader to know if there is actually an hyphen within the URL or not.</p>
+
+                            <p>No hyphenation, no risks.</p>
+                        </div>
+
+                        <h4 class="h4-like">Truncation</h4>
+                        <div>
+                            <p>Truncation is when you cut a line of text before the end, oftentime using the ellipsis (…) ponctuation mark to explicit the fact that the text is not whole.</p>
+
+                            <p>By default we don't use it. But there are exceptions, and most follow those rules:</p>
+
+                            <ul>
+                                <li>The screen displays an high-density level of information,</li>
+                                <li>The truncated text is not fully necessary on its own, it mostly an hint,</li>
+                                <li>The truncated text must not be the only way to distinguish 2 similar items.</li>
+                            </ul>
+                        </div>
 
 
                     <h3 class="h3-like" id="web-apps-fallback-strategy">Font fallback strategy</h3>
@@ -362,6 +380,7 @@
                         <p>Here is the ordered list:</p>
 
                         <ol>
+                            <li>"InterVariable"</li>
                             <li>"Barlow"</li>
                             <li>“DIN Pro”,</li>
                             <li>Roboto,</li>
@@ -373,8 +392,9 @@
 
                         <p>So to be really verbose here, what that rule is saying is:</p>
                         <ol>
-                            <li>I'd like to use the "Barlow" font, please.</li>
-                            <li>If you don't have that, try "Din Pro" font, please.</li>
+                            <li>I'd like to use the "InterVariable" font, please.</li>
+                            <li>If you don't have that, try "Varlow" font.</li>
+                            <li>If you don't have that, try "Din Pro" font.</li>
                             <li>you don't have that, try "Roboto" next.</li>
                             <li>etc.</li>
                             <li>All else fails, use whatever you've got for the generic keyword Sans-Serif</li>
@@ -411,7 +431,6 @@
                     <h3 class="h3-like">Emails</h3>
                     <p>Because of technical limitations within emails, we decided to use the following font stack in a fallback approach:</p>
                     <ol>
-                        <li>Barlow,</li>
                         <li>Arial,</li>
                         <li>Sans-Serif</li>
                     </ol>
