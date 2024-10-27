@@ -1,5 +1,5 @@
 name: 'Generate public doc'
 description: 'Use the local gulpfile to generate the public repository'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'index.js'
